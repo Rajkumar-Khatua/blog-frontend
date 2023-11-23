@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+
+/* Hide the scrollbar for WebKit browsers */
+body::-webkit-scrollbar {
+  width: 0; /* Set the width to zero */
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* Optionally, you can style the track and handle if needed */
+body::-webkit-scrollbar-track {
+  background-color: transparent; /* Set the background color of the scrollbar track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Set the color of the scrollbar handle */
+}
+
+/* Optionally, hide both horizontal and vertical scrollbars for all browsers */
+
+
+@tailwind utilities;
